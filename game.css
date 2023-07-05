@@ -77,3 +77,47 @@ button {
       
     
 }
+
+  @media only screen and (max-width: 600px) {
+      .header,
+      .footer,
+      .main-container {
+        width: 90%;
+      }
+
+      .header {
+        font-size: smaller;
+        border-radius: 1.5rem;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .footer {
+        font-size: smaller;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+
+      .main-container {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+      }
+
+      .buttonDiv {
+        flex-wrap: wrap;
+      }
+
+      button {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
+      }
+    }
